@@ -20,9 +20,9 @@ def resize_image(input_path, output_path, target_size_kb, format='JPEG'):
     img.save(output_path, format=format, quality=95)
 
 # Path ke folder gambar input dan output
-input_image_folder = "gambar"
-output_image_folder = "hasil_resize"
-target_size_kb = 100
+input_image_folder = "hasil_resize_3"
+output_image_folder = "hasil_resize_4"
+target_size_kb = 40
 
 # Pastikan folder output ada
 if not os.path.exists(output_image_folder):
